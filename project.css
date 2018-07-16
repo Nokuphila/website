@@ -1,0 +1,54 @@
+h1 {
+  font-style: italic;
+
+  text-align: center;
+;
+}
+.jumbotron {
+  min-height: 600px;
+  background-image: url('dance.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+#social-buttons button {
+  color: white;
+}
+.btn-twitter {
+  background-color: #00acee;o
+  border-color: #009ad5;
+}
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+}
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+}
+
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+
+#nav ul li{
+			display: inline-block;
+			height: 60px;
+          }
+
+			#nav ul li a{
+				padding: 20px;
+				background: orange;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color:#00ffdd; }
+
+      body {
+          background-color: red;
+      }
